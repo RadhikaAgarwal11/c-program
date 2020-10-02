@@ -4,7 +4,7 @@ counter = 0
 for words in listInput:
     if words == words[::-1]:                
         counter += 1
-print(f"Number of palindrome words found : {counter}")
+printf("Number of palindrome words found : {counter}")
 
 
 
